@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "AddNewHozzavalo",
+    "RelativePath": "hozzavalo/addNewHozzavalo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newHozzavalo",
+        "Type": "Receptek.Models.DTOs.HozzavaloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "DeleteHozzavalo",
+    "RelativePath": "hozzavalo/deleteHozzavalo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetAllHozzavalo",
+    "RelativePath": "hozzavalo/getAllHozzavalo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetHozzavaloById",
+    "RelativePath": "hozzavalo/getHozzavaloById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetHozzavaloCount",
+    "RelativePath": "hozzavalo/getHozzavaloCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetHozzavaloCountBySzakacs",
+    "RelativePath": "hozzavalo/getHozzavaloCountBySzakacs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetSzakacsById",
+    "RelativePath": "hozzavalo/getSzakacsById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "GetSzakacsWithHozzavalok",
+    "RelativePath": "hozzavalo/getSzakacsWithHozzavalok/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Receptek.Controllers.HozzavaloController",
+    "Method": "UpdateHozzavalo",
+    "RelativePath": "hozzavalo/updateHozzavalo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedHozzavalo",
+        "Type": "Receptek.Models.DTOs.HozzavaloDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
